@@ -1,12 +1,17 @@
-##ID
+###Introduction
+This table tidies the data given by the Human Activity Recognition Using Smartphones data set. In this table we find the average of every mean and standard deviation measured features with respect to every person and activity performed. This is achieved by gathering every data point from the trial and test sections and then finding the averages of the relevant features we selected, separated by every person and activity. The files for activity names, name identifiers, and measurement data are combined to make a neat table. 
 
-This is the number of the person who is being measured, given by "subject_test.txt" and "subject_train.txt"
+###Variables
 
-#Activity
+####ID
+
+This is the identifier of the person who is being measured, given by "subject_test.txt" and "subject_train.txt"
+
+####Activity
 
 This gives the description of the activity being measured. This is found by connecting the activity labels given with the activity names.
 
-#Measurement features
+####Measurement features
 
 These variables contain the final averages calculated from the mean and standard deviation values found with the measured features as described from the Human Activity Recognition source
 
